@@ -1,7 +1,12 @@
 SafariViewController Cordova Plugin
 ===================================
 
-**September 11, 2020, this fork makes the SafariViewController an iOS only plugin.  I was unable to resolve the ChromeCustomTabs compile issue for the [WeVote Voters's Guide Cordova app](https://github.com/wevote/WeVoteCordova), that others have run into while building for Android.  We recently upgraded to Cordova Android 9.0, and previous to the upgrade we were able to use SafariViewController for both iOS and Android.  Hopefully this fork will not be necessary for too long.**
+**Reason for this fork, September 11, 2020:  This fork makes the SafariViewController into a iOS only plugin.**
+
+I was unable to resolve the ChromeCustomTabs compile issue for the [WeVote Voters's Guide Cordova app](https://github.com/wevote/WeVoteCordova), that others have run into while building Cordova for Android.  We recently upgraded to Cordova Android 9.0, and previous to the upgrade we were able to use SafariViewController for both iOS and Android.  Hopefully this fork will not be necessary for too long.  
+
+For Android (in our app) we fall back to the older InAppBrowser, which is sufficient for our needs.
+
 
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][npm-url]
